@@ -92,7 +92,7 @@ section.prices h2 {
 section.prices button {
   background-color: var(--brightYellow);
   border: none;
-  color: var(--lightGray);
+  color: #fff;
   border-radius: 5px;
   padding: 15px;
   font-size: 700;
@@ -150,12 +150,13 @@ section.reason ul {
   }
   .container {
     justify-content: center;
-    width: 635px;
+    width: 600px;
     flex-direction: column;
   }
 
   section.join {
-    padding: 30px;
+    padding: 40px 30px;
+    border-radius: 10px 10px 0 0;
   }
 
   .desc {
@@ -166,13 +167,13 @@ section.reason ul {
 
   section.prices {
     width: 50%;
-    border-radius: 0 0 0 5px;
-    padding: 40px;
+    border-radius: 0 0 0 10px;
+    padding: 30px;
   }
 
   section.reason {
     width: 50%;
-    border-radius: 0 0 5px 0;
-    padding: 40px;
+    border-radius: 0 0 10px 0;
+    padding: 30px;
   }
 }
